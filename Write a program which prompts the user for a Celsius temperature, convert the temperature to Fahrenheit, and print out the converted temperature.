@@ -1,0 +1,4 @@
+#Program:
+celsius = float(input("Enter the temperature in degree celsius:\n"))
+fahrenheit = (celsius * 1.8) + 32  
+print(celsius,"Degree celsius = ",fahrenheit,"Degree Fahrenheit")
