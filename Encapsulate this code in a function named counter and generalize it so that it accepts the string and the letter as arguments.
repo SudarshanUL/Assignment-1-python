@@ -1,0 +1,13 @@
+#Program:
+string=input("Enter the String:\n")
+letter=input("Enter the letter to count:\n")
+def counter(s, l):
+  string = str(s)
+  letter = str(l)
+  count = 0
+  for alphabet in string: 
+    if alphabet == letter :
+      count = count + 1
+  print(count)
+print("Count of letter", letter, "in", string,"is")
+counter(string, letter)
